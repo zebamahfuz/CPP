@@ -25,7 +25,7 @@ SECRET_KEY = 'w6rm%l&xim0ivll-li$u6fg8)6k8-$7uar^f#33ht5sutw8e!#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -86,13 +86,12 @@ WSGI_APPLICATION = 'realestate.wsgi.application'
 #    }
 #}
 
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'realestate' ,
+        'NAME': 'postgres' ,
         'USER': 'pks',
-        'PASSWORD': 'abcd1234',
+        'PASSWORD': 'project12',
         'HOST': 'realestate.chwlezgyi7rm.eu-west-1.rds.amazonaws.com',
         'PORT': '5432'
         
