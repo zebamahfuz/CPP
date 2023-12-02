@@ -86,6 +86,7 @@ WSGI_APPLICATION = 'realestate.wsgi.application'
 #    }
 #}
 
+# RDS Database
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -149,3 +150,4 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
+
