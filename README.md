@@ -9,20 +9,15 @@ A simple, reponsive  website. Built with:
 - Bootstrap 4 🌈
 - Vanilla JS - ES6
 - JQuery
-
-If you are new to Django, checkout the [Django 2.x Cheat Sheet](https://github.com/TheCaffeineDev/Real-Estate-Django-Web-App/blob/master/django_cheat_sheet.md)
-
-If you want to deploy this Web App In Ubuntu 18.04 Server, Please Follow this [Guide](https://github.com/TheCaffeineDev/Real-Estate-Django-Web-App/blob/master/Django_Deployment_to_Ubuntu_18.04.md) 
-
 ## How to run this project (Ubuntu 18.04)
 
 1. **Clone the project**
 
 ```sh
-git clone https://github.com/TheCaffeineDev/Real-Estate-Django-Web-App.git
+git clone https://github.com/zebamahfuz/CPP.git
 ```
 
-2.  **Make sure you are in *Real-Estate-Django-Web-App* folder**
+2.  **Make sure you are in *CPP* folder**
 
    1. Install all dependencies
 
@@ -125,38 +120,12 @@ This is the default configuration of Django database.
 
 
 **Backend**
+![RDS Database ](realestate.chwlezgyi7rm.eu-west-1.rds.amazonaws.com:5432)
+For Database I have used AWS RDS Postgres Database Name: realestate
 
-For Database I have used Postgres Database Name: real_estate
+- **Lambda API Endpoint**
 
-Note: Please change those gmail credentials from real_estate folder you will get settings.py inside that file you will see username and password mentioned as place your Username and Password. Also do that same thing from Contacts folder views.py you will see YourEmail mentioned on line number 33.
-
-### Screenshots
-
-- **HOME**
-
-![Home](https://github.com/TheCaffeineDev/Real-Estate-Django-Web-App/blob/master/screenshots/s1.JPG)
-
-- **Listings** 
-
-
-![Listings](https://github.com/TheCaffeineDev/Real-Estate-Django-Web-App/blob/master/screenshots/s3list.JPG)
-
-- **Registration** 
-
-![Registration](https://github.com/TheCaffeineDev/Real-Estate-Django-Web-App/blob/master/screenshots/s4reg.JPG)
-
-- **Admin Panel - 1**
-
-![Admin](https://github.com/TheCaffeineDev/Real-Estate-Django-Web-App/blob/master/screenshots/s5adm.JPG)
-
-- **Admin Panel - 2**
-
-![Admin](https://github.com/TheCaffeineDev/Real-Estate-Django-Web-App/blob/master/screenshots/s6r.JPG)
-
-- **About**
-
-![About ](https://github.com/TheCaffeineDev/Real-Estate-Django-Web-App/blob/master/screenshots/s2about.JPG)
-
+![Lambda API Endpoint ](https://v4dmr8sz3i.execute-api.eu-west-1.amazonaws.com/default/zeba)
 
 ## Acknowledgments
 
