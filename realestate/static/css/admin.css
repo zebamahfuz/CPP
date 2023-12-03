@@ -1,6 +1,6 @@
 #header {
     height: 50px;
-    background: #10284e;
+    background: #000;
     color: #fff;
   }
   
@@ -14,7 +14,7 @@
   }
   
   div.breadcrumbs {
-    background: #30caa0;
+    background: #a3081a;
     color: #10284e;
   }
   
@@ -23,10 +23,16 @@
   }
   
   .module h2, .module caption, .inline-group h2 {
-    background: #30caa0;
+    background: #a3081a;
   }
   
   .button, input[type=submit], input[type=button], .submit-row input, a.button {
-    background: #10284e;
+    background: #a3081a;
     color: #fff;
   }
+  .button.default, input[type=submit].default, .submit-row input.default {
+   background: #000;
+}
+.submit-row a.deletelink {
+  background: #000 !important;
+}
