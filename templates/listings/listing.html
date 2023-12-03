@@ -1,5 +1,33 @@
 {% extends 'base.html' %} {% load humanize %} {% block title %} | {{
 listing.title }} {% endblock %} {% block content %}
+<style>
+  .btn-primary  {
+    color: #fff;
+    background-color: #a3081a;
+    border-color: #a3081a;
+}
+.btn-secondary {
+  color: #212529;
+  background-color: #a3081a;
+  border-color: #a3081a;
+}
+
+.text-secondary {
+  color: #a3081a !important;
+}
+
+#showcase-inner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: 100%;
+  background: rgb(0 0 0 / 80%);
+}
+
+
+</style>
 <section id="showcase-inner" class="py-5 text-white">
   <div class="container">
     <div class="row text-center">

@@ -10,7 +10,7 @@
 <style>
   .btn-secondary {
     background-color: #a3081a !important;
-    border-color: #a3081a !important;
+    border-color: #a3081a; !important;
 }
 .display-4 {
   font-size: 3rem !important;
@@ -32,11 +32,25 @@
   #showcase {
    padding-top: 13rem;
 }
+
+.btn-primary  {
+  color: #fff;
+  background-color: #a3081a;
+  border-color: #a3081a;
+}
+.badge-secondary {
+  color: #212529;
+  background-color: #a3081a;
+}
+
+.text-secondary {
+  color: #a3081a !important;
+}
 </style>
 
 <!-- Showcase -->
 
- <section id="showcase" style="background-image: url(&quot;{% static 'img/homes/home-5.jpg' %}&quot;) ;"> 
+ <section id="showcase" style="background-image: url(&quot;{% static 'img/homefront.jpg' %}&quot;) ;"> 
  <!--  <section id="showcase" style="background-image: url('../img/new/homefront.jpg')"> -->
     <div class="container text-center" >
       <div class="home-search p-5" >
