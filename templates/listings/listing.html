@@ -235,14 +235,16 @@
       </div>
     </div>
   </div>
-  <script>
-    document.getElementByID("inquiry-form").addEventListerner("submit", function(event)){
-      var formData = new FormData(event.target);
-      var jsonObject = {};
-      formData.forEach(function (value, key) { jsonObject[key] = value; }); 
-      fetch("https://v4dmr8sz3i.execute-api.eu-west-1.amazonaws.com/default/zeba" , 
-      method = "POST" , body: JSON.stringify(jsonObject), });
+   <script>
+    document.getElementById("inquiry-form").addEventListener("submit", function (event) {
+    var formData = new FormData(event. target);
+    var jsonObject = {};
+    formData. forEach(function (value, key) {
+      jsonObject [key] = value;
     });
-    
-  </script>
+    fetch("https://v4dmr8sz31.execute-api.eu-west-1.amazonaws.com/default/zeba", {
+    method: "POST", body: JSON.stringify(jsonobject),
+    });
+  });
+</script>
 {% endblock %}
